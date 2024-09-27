@@ -1,0 +1,1052 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"6085 C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6085: extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
+[v _OSCCON `Vuc ~T0 @X0 0 e@4051 ]
+"2529
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2529: extern volatile unsigned char OSCTUNE __attribute__((address(0xF9B)));
+[v _OSCTUNE `Vuc ~T0 @X0 0 e@3995 ]
+"1699
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1699: extern volatile unsigned char TRISB __attribute__((address(0xF93)));
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"271
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 271: extern volatile unsigned char PORTB __attribute__((address(0xF81)));
+[v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
+"1921
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1921: extern volatile unsigned char TRISC __attribute__((address(0xF94)));
+[v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
+"450
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 450: extern volatile unsigned char PORTC __attribute__((address(0xF82)));
+[v _PORTC `Vuc ~T0 @X0 0 e@3970 ]
+"4775
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4775: extern volatile unsigned char ADCON0 __attribute__((address(0xFC2)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"4690
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4690: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
+"4619
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4619: extern volatile unsigned char ADCON2 __attribute__((address(0xFC0)));
+[v _ADCON2 `Vuc ~T0 @X0 0 e@4032 ]
+[v F205 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v2.46\pic\include\builtins.h
+[v __delay `JF205 ~T0 @X0 0 e ]
+[p i __delay ]
+"4781 C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4781:     struct {
+[s S189 :1 `uc 1 :1 `uc 1 ]
+[n S189 . . GO_NOT_DONE ]
+"4785
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4785:     struct {
+[s S190 :1 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S190 . ADON GO_nDONE CHS ]
+"4790
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4790:     struct {
+[s S191 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S191 . . GO CHS0 CHS1 CHS2 CHS3 ]
+"4798
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4798:     struct {
+[s S192 :1 `uc 1 :1 `uc 1 ]
+[n S192 . . DONE ]
+"4802
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4802:     struct {
+[s S193 :1 `uc 1 :1 `uc 1 ]
+[n S193 . . NOT_DONE ]
+"4806
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4806:     struct {
+[s S194 :1 `uc 1 :1 `uc 1 ]
+[n S194 . . nDONE ]
+"4810
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4810:     struct {
+[s S195 :1 `uc 1 :1 `uc 1 ]
+[n S195 . . GO_DONE ]
+"4814
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4814:     struct {
+[s S196 :1 `uc 1 :1 `uc 1 ]
+[n S196 . . GODONE ]
+"4780
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4780: typedef union {
+[u S188 `S189 1 `S190 1 `S191 1 `S192 1 `S193 1 `S194 1 `S195 1 `S196 1 ]
+[n S188 . . . . . . . . . ]
+"4819
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4819: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
+[v _ADCON0bits `VS188 ~T0 @X0 0 e@4034 ]
+"4908
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4908: extern volatile unsigned char ADRESH __attribute__((address(0xFC4)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"4901
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4901: extern volatile unsigned char ADRESL __attribute__((address(0xFC3)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+"456
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 456:     struct {
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"466
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 466:     struct {
+[s S24 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S24 . T1OSO T1OSI CCP1 SCK SDI SDO TX RX ]
+"476
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 476:     struct {
+[s S25 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S25 . T13CKI CCP2 . SCL SDA . CK DT ]
+"486
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 486:     struct {
+[s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . T1CKI . P1A ]
+"491
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 491:     struct {
+[s S27 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S27 . . PA2 PA1 ]
+"455
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 455: typedef union {
+[u S22 `S23 1 `S24 1 `S25 1 `S26 1 `S27 1 ]
+[n S22 . . . . . . ]
+"497
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 497: extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
+[v _PORTCbits `VS22 ~T0 @X0 0 e@3970 ]
+"121 C:\Program Files\Microchip\xc8\v2.46\pic\include\c99\stdio.h
+[; ;C:\Program Files\Microchip\xc8\v2.46\pic\include\c99\stdio.h: 121: int sprintf(char *restrict, const char *restrict, ...);
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"24 C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/LCD4b_EXSTO.h
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/LCD4b_EXSTO.h: 24: void lcd_clear(void);
+[v _lcd_clear `(v ~T0 @X0 0 ef ]
+"25
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/LCD4b_EXSTO.h: 25: void lcd_write(char lin, char col, char *str);
+[v _lcd_write `(v ~T0 @X0 0 ef3`uc`uc`*uc ]
+[p mainexit ]
+"20
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/LCD4b_EXSTO.h: 20: void lcd_init(void);
+[v _lcd_init `(v ~T0 @X0 0 ef ]
+"277 C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 277:     struct {
+[s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S17 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"287
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 287:     struct {
+[s S18 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S18 . INT0 INT1 INT2 CCP2 KBI0 KBI1 KBI2 KBI3 ]
+"297
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 297:     struct {
+[s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . AN12 AN10 AN8 AN9 AN11 PGM PGC PGD ]
+"307
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 307:     struct {
+[s S20 :1 `uc 1 ]
+[n S20 . FLT0 ]
+"310
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 310:     struct {
+[s S21 :3 `uc 1 :1 `uc 1 ]
+[n S21 . . CCP2_PA2 ]
+"276
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 276: typedef union {
+[u S16 `S17 1 `S18 1 `S19 1 `S20 1 `S21 1 ]
+[n S16 . . . . . . ]
+"315
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 315: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
+[v _PORTBbits `VS16 ~T0 @X0 0 e@3969 ]
+"6 C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c
+[p x OSC  =  HS          ]
+"7
+[p x FCMEN  =  OFF       ]
+"8
+[p x IESO  =  OFF        ]
+"11
+[p x PWRT  =  OFF        ]
+"12
+[p x BOREN  =  OFF       ]
+"13
+[p x BORV  =  3          ]
+"16
+[p x WDT  =  OFF         ]
+"17
+[p x WDTPS  =  32768     ]
+"20
+[p x CCP2MX  =  PORTC    ]
+"21
+[p x PBADEN  =  OFF      ]
+"22
+[p x LPT1OSC  =  OFF     ]
+"23
+[p x MCLRE  =  ON        ]
+"26
+[p x STVREN  =  ON       ]
+"27
+[p x LVP  =  OFF         ]
+"28
+[p x XINST  =  OFF       ]
+"31
+[p x CP0  =  OFF         ]
+"32
+[p x CP1  =  OFF         ]
+"33
+[p x CP2  =  OFF         ]
+"34
+[p x CP3  =  OFF         ]
+"37
+[p x CPB  =  OFF         ]
+"38
+[p x CPD  =  OFF         ]
+"41
+[p x WRT0  =  OFF        ]
+"42
+[p x WRT1  =  OFF        ]
+"43
+[p x WRT2  =  OFF        ]
+"44
+[p x WRT3  =  OFF        ]
+"47
+[p x WRTC  =  OFF        ]
+"48
+[p x WRTB  =  OFF        ]
+"49
+[p x WRTD  =  OFF        ]
+"52
+[p x EBTR0  =  OFF       ]
+"53
+[p x EBTR1  =  OFF       ]
+"54
+[p x EBTR2  =  OFF       ]
+"55
+[p x EBTR3  =  OFF       ]
+"58
+[p x EBTRB  =  OFF       ]
+"54 C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 54: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"273
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 273: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"452
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 452: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"634
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 634: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"776
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 776: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"979
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 979: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1091
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1091: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1203
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1203: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1315
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1315: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1427
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1427: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1479
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1479: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1484
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1484: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1701
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1701: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1706
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1706: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1923
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1923: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1928
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 1928: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2145
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2145: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2150
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2150: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2367
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2367: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2372
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2372: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2531
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2531: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2596
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2596: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2673
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2673: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2750
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2750: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2827
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2827: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2893
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2893: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2959
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 2959: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3025
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3025: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3091
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3091: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3098
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3098: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3105
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3105: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3112
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3112: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3117
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3117: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3322
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3322: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3327
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3327: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3578
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3578: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3583
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3583: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3590
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3590: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3595
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3595: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3602
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3602: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3607
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3607: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3614
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3614: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3621
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3621: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3733
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3733: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3740
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3740: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3747
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3747: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3754
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3754: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3844
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3844: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3923
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3923: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3928
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 3928: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"4085
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4085: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4090
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4090: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4223
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4223: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4228
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4228: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4403
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4403: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4482
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4482: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4489
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4489: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4496
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4496: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4503
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4503: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4600
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4600: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4607
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4607: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4614
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4614: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4621
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4621: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4692
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4692: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4777
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4777: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4896
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4896: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4903
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4903: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4910
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4910: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4917
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 4917: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5012
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5012: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5082
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5082: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5303
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5303: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5310
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5310: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5317
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5317: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5415
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5415: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5420
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5420: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5525
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5525: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5532
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5532: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5635
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5635: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5642
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5642: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5649
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5649: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5656
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5656: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5789
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5789: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5817
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5817: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5822
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 5822: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6087
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6087: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6170
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6170: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6253
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6253: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6260
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6260: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6267
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6267: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6274
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6274: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6345
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6345: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6352
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6352: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6359
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6359: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6366
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6366: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6373
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6373: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6380
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6380: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6387
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6387: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6394
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6394: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6401
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6401: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6408
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6408: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6415
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6415: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6422
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6422: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6429
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6429: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6436
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6436: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6443
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6443: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6450
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6450: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6457
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6457: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6464
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6464: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6476
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6476: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6483
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6483: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6490
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6490: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6497
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6497: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6504
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6504: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6511
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6511: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6518
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6518: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6525
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6525: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6532
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6532: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6624
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6624: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6694
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6694: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6811
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6811: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6818
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6818: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6825
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6825: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6832
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6832: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6841
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6841: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6848
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6848: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6855
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6855: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6862
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6862: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6871
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6871: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6878
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6878: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6885
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6885: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6892
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6892: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6899
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6899: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6906
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6906: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6980
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6980: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6987
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6987: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6994
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 6994: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7001
+[; ;C:/Users/gabri/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4520.h: 7001: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"69 C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 69: unsigned int VdigADC_AN3;
+[v _VdigADC_AN3 `ui ~T0 @X0 1 e ]
+"71
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 71: char string_temp[16],
+[v _string_temp `uc ~T0 @X0 -> 16 `i e ]
+"72
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 72:      string_percent[16],
+[v _string_percent `uc ~T0 @X0 -> 16 `i e ]
+"73
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 73:      string_FAN1[8],
+[v _string_FAN1 `uc ~T0 @X0 -> 8 `i e ]
+"74
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 74:      string_FAN2[8],
+[v _string_FAN2 `uc ~T0 @X0 -> 8 `i e ]
+"75
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 75:      string_RES1[8];
+[v _string_RES1 `uc ~T0 @X0 -> 8 `i e ]
+"77
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 77: float sensor_temp = 0,
+[v _sensor_temp `f ~T0 @X0 1 e ]
+[i _sensor_temp
+-> -> 0 `i `f
+]
+"78
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 78:       sensor_tensao = 0,
+[v _sensor_tensao `f ~T0 @X0 1 e ]
+[i _sensor_tensao
+-> -> 0 `i `f
+]
+"79
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 79:       percent = 0;
+[v _percent `f ~T0 @X0 1 e ]
+[i _percent
+-> -> 0 `i `f
+]
+"81
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 81: unsigned int FAN1 = 0,
+[v _FAN1 `ui ~T0 @X0 1 e ]
+[i _FAN1
+-> -> 0 `i `ui
+]
+"82
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 82:              FAN2 = 0,
+[v _FAN2 `ui ~T0 @X0 1 e ]
+[i _FAN2
+-> -> 0 `i `ui
+]
+"83
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 83:              RES1 = 0;
+[v _RES1 `ui ~T0 @X0 1 e ]
+[i _RES1
+-> -> 0 `i `ui
+]
+"85
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 85: void config_FOSC()
+[v _config_FOSC `(v ~T0 @X0 1 ef ]
+"86
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 86: {
+{
+[e :U _config_FOSC ]
+[f ]
+"87
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 87:     OSCCON = 0X00;
+[e = _OSCCON -> -> 0 `i `uc ]
+"88
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 88:     OSCTUNE = 0X00;
+[e = _OSCTUNE -> -> 0 `i `uc ]
+"89
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 89: }
+[e :UE 283 ]
+}
+"91
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 91: void config_IO()
+[v _config_IO `(v ~T0 @X0 1 ef ]
+"92
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 92: {
+{
+[e :U _config_IO ]
+[f ]
+"93
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 93:     TRISB = 0X01;
+[e = _TRISB -> -> 1 `i `uc ]
+"94
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 94:     PORTB = 0X00;
+[e = _PORTB -> -> 0 `i `uc ]
+"95
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 95:     TRISC = 0X00;
+[e = _TRISC -> -> 0 `i `uc ]
+"96
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 96:     PORTC = 0X00;
+[e = _PORTC -> -> 0 `i `uc ]
+"97
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 97: }
+[e :UE 284 ]
+}
+"99
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 99: void config_ADC()
+[v _config_ADC `(v ~T0 @X0 1 ef ]
+"100
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 100: {
+{
+[e :U _config_ADC ]
+[f ]
+"101
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 101:     ADCON0 = 0X0D;
+[e = _ADCON0 -> -> 13 `i `uc ]
+"102
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 102:     ADCON1 = 0X0B;
+[e = _ADCON1 -> -> 11 `i `uc ]
+"103
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 103:     ADCON2 = 0X80;
+[e = _ADCON2 -> -> 128 `i `uc ]
+"104
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 104: }
+[e :UE 285 ]
+}
+"106
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 106: void conv_AN3()
+[v _conv_AN3 `(v ~T0 @X0 1 ef ]
+"107
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 107: {
+{
+[e :U _conv_AN3 ]
+[f ]
+"108
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 108:     _delay((unsigned long)((50)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"109
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 109:     ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
+"110
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 110:     while(ADCON0bits.GO);
+[e $U 287  ]
+[e :U 288 ]
+[e :U 287 ]
+[e $ != -> . . _ADCON0bits 2 1 `i -> 0 `i 288  ]
+[e :U 289 ]
+"111
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 111:     VdigADC_AN3 = ADRESH;
+[e = _VdigADC_AN3 -> _ADRESH `ui ]
+"112
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 112:     VdigADC_AN3 = (VdigADC_AN3 << 8) + ADRESL;
+[e = _VdigADC_AN3 + << _VdigADC_AN3 -> 8 `i -> _ADRESL `ui ]
+"113
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 113: }
+[e :UE 286 ]
+}
+"115
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 115: void conv_TEMP()
+[v _conv_TEMP `(v ~T0 @X0 1 ef ]
+"116
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 116: {
+{
+[e :U _conv_TEMP ]
+[f ]
+"117
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 117:     sensor_tensao = VdigADC_AN3 * 0.0048875855327468;
+[e = _sensor_tensao -> * -> _VdigADC_AN3 `d .0.0048875855327468 `f ]
+"118
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 118:     sensor_temp = sensor_tensao / 0.0119047619047619;
+[e = _sensor_temp -> / -> _sensor_tensao `d .0.0119047619047619 `f ]
+"119
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 119:     percent = (sensor_temp * 100)/ 420;
+[e = _percent / * _sensor_temp -> -> 100 `i `f -> -> 420 `i `f ]
+"120
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 120: }
+[e :UE 290 ]
+}
+"122
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 122: void logica_controle()
+[v _logica_controle `(v ~T0 @X0 1 ef ]
+"123
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 123: {
+{
+[e :U _logica_controle ]
+[f ]
+"124
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 124:     if(sensor_temp <= (0.25*420))
+[e $ ! <= -> _sensor_temp `d * .0.25 -> -> 420 `i `d 292  ]
+"125
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 125:     {
+{
+"126
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 126:         FAN1 = 0;
+[e = _FAN1 -> -> 0 `i `ui ]
+"127
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 127:         FAN2 = 0;
+[e = _FAN2 -> -> 0 `i `ui ]
+"128
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 128:         RES1 = 1;
+[e = _RES1 -> -> 1 `i `ui ]
+"129
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 129:     }
+}
+[e $U 293  ]
+"130
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 130:     else if(sensor_temp > (0.25*420) && sensor_temp <= (0.50*420))
+[e :U 292 ]
+[e $ ! && > -> _sensor_temp `d * .0.25 -> -> 420 `i `d <= -> _sensor_temp `d * .0.50 -> -> 420 `i `d 294  ]
+"131
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 131:     {
+{
+"132
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 132:         FAN1 = 1;
+[e = _FAN1 -> -> 1 `i `ui ]
+"133
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 133:         FAN2 = 0;
+[e = _FAN2 -> -> 0 `i `ui ]
+"134
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 134:         RES1 = 1;
+[e = _RES1 -> -> 1 `i `ui ]
+"135
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 135:     }
+}
+[e $U 295  ]
+"136
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 136:     else if(sensor_temp > (0.50*420) && sensor_temp <= (0.75*420))
+[e :U 294 ]
+[e $ ! && > -> _sensor_temp `d * .0.50 -> -> 420 `i `d <= -> _sensor_temp `d * .0.75 -> -> 420 `i `d 296  ]
+"137
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 137:     {
+{
+"138
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 138:         FAN1 = 1;
+[e = _FAN1 -> -> 1 `i `ui ]
+"139
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 139:         FAN2 = 1;
+[e = _FAN2 -> -> 1 `i `ui ]
+"140
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 140:         RES1 = 1;
+[e = _RES1 -> -> 1 `i `ui ]
+"141
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 141:     }
+}
+[e $U 297  ]
+"142
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 142:     else if(sensor_temp > (0.75*420))
+[e :U 296 ]
+[e $ ! > -> _sensor_temp `d * .0.75 -> -> 420 `i `d 298  ]
+"143
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 143:     {
+{
+"144
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 144:         FAN1 = 1;
+[e = _FAN1 -> -> 1 `i `ui ]
+"145
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 145:         FAN2 = 1;
+[e = _FAN2 -> -> 1 `i `ui ]
+"146
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 146:         RES1 = 0;
+[e = _RES1 -> -> 0 `i `ui ]
+"147
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 147:     }
+}
+[e :U 298 ]
+[e :U 297 ]
+[e :U 295 ]
+[e :U 293 ]
+"149
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 149:     PORTCbits.RC0 = FAN1;
+[e = . . _PORTCbits 0 0 -> _FAN1 `uc ]
+"150
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 150:     PORTCbits.RC1 = FAN2;
+[e = . . _PORTCbits 0 1 -> _FAN2 `uc ]
+"151
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 151:     PORTCbits.RC2 = RES1;
+[e = . . _PORTCbits 0 2 -> _RES1 `uc ]
+"153
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 153: }
+[e :UE 291 ]
+}
+"155
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 155: void LCD_tela1(){
+[v _LCD_tela1 `(v ~T0 @X0 1 ef ]
+{
+[e :U _LCD_tela1 ]
+[f ]
+"157
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 157:     sprintf(string_temp,"%0.1f%cC", sensor_temp, 0xDF);
+[e ( _sprintf (1 , , (. , &U _string_temp :s 1C -> _sensor_temp `d -> 223 `i ]
+"158
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 158:     sprintf(string_percent,"%0.1f%c", percent, 0x25);
+[e ( _sprintf (1 , , (. , &U _string_percent :s 2C -> _percent `d -> 37 `i ]
+"160
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 160:     lcd_clear();
+[e ( _lcd_clear ..  ]
+"161
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 161:     _delay((unsigned long)((20)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"163
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 163:     lcd_write(1,1,"TEMP:                  ");
+[e ( _lcd_write (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 3C ]
+"164
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 164:     lcd_write(1,10,string_temp);
+[e ( _lcd_write (3 , , -> -> 1 `i `uc -> -> 10 `i `uc &U _string_temp ]
+"166
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 166:     lcd_write(2,1,"PERCENT:               ");
+[e ( _lcd_write (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 4C ]
+"167
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 167:     lcd_write(2,10,string_percent);
+[e ( _lcd_write (3 , , -> -> 2 `i `uc -> -> 10 `i `uc &U _string_percent ]
+"169
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 169: }
+[e :UE 299 ]
+}
+"171
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 171: void LCD_tela2(){
+[v _LCD_tela2 `(v ~T0 @X0 1 ef ]
+{
+[e :U _LCD_tela2 ]
+[f ]
+"173
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 173:     sprintf(string_FAN1, "%d", FAN1);
+[e ( _sprintf (1 , (. , &U _string_FAN1 :s 5C _FAN1 ]
+"174
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 174:     sprintf(string_FAN2, "%d", FAN2);
+[e ( _sprintf (1 , (. , &U _string_FAN2 :s 6C _FAN2 ]
+"175
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 175:     sprintf(string_RES1, "%d", RES1);
+[e ( _sprintf (1 , (. , &U _string_RES1 :s 7C _RES1 ]
+"177
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 177:     lcd_clear();
+[e ( _lcd_clear ..  ]
+"178
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 178:     _delay((unsigned long)((20)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"180
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 180:     lcd_write(1,1,"FAN 1:          ");
+[e ( _lcd_write (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 8C ]
+"181
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 181:     lcd_write(1,7,string_FAN1);
+[e ( _lcd_write (3 , , -> -> 1 `i `uc -> -> 7 `i `uc &U _string_FAN1 ]
+"183
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 183:     lcd_write(1,9,"FAN 2:          ");
+[e ( _lcd_write (3 , , -> -> 1 `i `uc -> -> 9 `i `uc :s 9C ]
+"184
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 184:     lcd_write(1,15,string_FAN2);
+[e ( _lcd_write (3 , , -> -> 1 `i `uc -> -> 15 `i `uc &U _string_FAN2 ]
+"186
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 186:     lcd_write(2,1,"RES1:          ");
+[e ( _lcd_write (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 10C ]
+"187
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 187:     lcd_write(2,6,string_RES1);
+[e ( _lcd_write (3 , , -> -> 2 `i `uc -> -> 6 `i `uc &U _string_RES1 ]
+"189
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 189: }
+[e :UE 300 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"191
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 191: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"193
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 193:     config_FOSC();
+[e ( _config_FOSC ..  ]
+"194
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 194:     config_IO();
+[e ( _config_IO ..  ]
+"195
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 195:     config_ADC();
+[e ( _config_ADC ..  ]
+"196
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 196:     lcd_init();
+[e ( _lcd_init ..  ]
+"198
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 198:     while(1)
+[e :U 303 ]
+"199
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 199:     {
+{
+"200
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 200:         conv_AN3();
+[e ( _conv_AN3 ..  ]
+"201
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 201:         conv_TEMP();
+[e ( _conv_TEMP ..  ]
+"202
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 202:         logica_controle();
+[e ( _logica_controle ..  ]
+"204
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 204:         if(PORTBbits.RB0 == 0) {
+[e $ ! == -> . . _PORTBbits 0 0 `i -> 0 `i 305  ]
+{
+"205
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 205:             LCD_tela1();
+[e ( _LCD_tela1 ..  ]
+"206
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 206:         }
+}
+[e $U 306  ]
+"207
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 207:         else if(PORTBbits.RB0 == 1){
+[e :U 305 ]
+[e $ ! == -> . . _PORTBbits 0 0 `i -> 1 `i 307  ]
+{
+"208
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 208:             LCD_tela2();
+[e ( _LCD_tela2 ..  ]
+"209
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 209:         }
+}
+[e :U 307 ]
+[e :U 306 ]
+"210
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 210:     }
+}
+[e :U 302 ]
+[e $U 303  ]
+[e :U 304 ]
+"211
+[; ;C:/Users/gabri/Desktop/Software/TEMP_ESTUFA_LCD.X/newmain.c: 211: }
+[e :UE 301 ]
+}
+[p f _sprintf 8986756 ]
+[a 5C 37 100 0 ]
+[a 6C 37 100 0 ]
+[a 7C 37 100 0 ]
+[a 2C 37 48 46 49 102 37 99 0 ]
+[a 1C 37 48 46 49 102 37 99 67 0 ]
+[a 9C 70 65 78 32 50 58 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 10C 82 69 83 49 58 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 8C 70 65 78 32 49 58 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 4C 80 69 82 67 69 78 84 58 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 3C 84 69 77 80 58 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
